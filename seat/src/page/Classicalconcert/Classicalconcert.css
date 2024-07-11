@@ -1,0 +1,53 @@
+.aaa{
+  
+    color: blue;
+    text-align: center;
+  }
+  .concert-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    padding :80px 20px 20px;
+    max-width: 100% ;
+  }
+  
+  .concert {
+    background-color:#f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    color: black;
+  }
+  
+  .concert h2 {
+    margin-top: 0;
+  }
+  
+  .concert ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .concert li {
+    margin-bottom: 10px;
+  }
+  
+  .concert li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .buy-ticket-button {
+    background-color: #4CAF50;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-ticket-button:hover {
+    background-color: #3e8e41;
+  }

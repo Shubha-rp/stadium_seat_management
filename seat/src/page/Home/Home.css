@@ -1,0 +1,153 @@
+.home-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 80px 20px 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.hero-content {
+  flex: 1;
+  margin-right: 20px;
+  color: black;
+  text-decoration:dotted;
+  text-shadow:2px #333;
+}
+
+.carousel-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.custom-carousel {
+  width: 100%;
+}
+
+.custom-carousel .carousel .slide {
+  display: inline-block;
+  justify-content: center;
+  width: 33%;
+}
+
+.custom-carousel .carousel .slide img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.react-responsive-carousel .control-arrow:before {
+  background-color: transparent;
+}
+
+.react-responsive-carousel .control-arrow {
+  background: none !important;
+}
+
+.react-responsive-carousel .control-arrow:hover {
+  background: none !important;
+}
+
+.react-responsive-carousel .control-arrow:before {
+  background-color: transparent !important;
+}
+
+.react-responsive-carousel .control-arrow:hover:before {
+  background-color: transparent !important;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Testimonials */
+.testimonials {
+  margin-top: 50px;
+  color: black;
+}
+
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Featured Services */
+.featured-services {
+  margin-top: 50px;
+  color: black;
+}
+
+.featured-services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.featured-services li {
+  margin-bottom: 10px;
+}
+
+/* News and Updates */
+.news-updates {
+  margin-top: 50px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Integration */
+.social-media-feed {
+  margin-top: 50px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-contact {
+  margin-top: 10px;
+}
+
+
+    

@@ -1,0 +1,17 @@
+
+figcaption{
+    font-size: 40px;
+    margin-left: 190px;
+    min-width: max-content;
+}
+
+img{
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.test1{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 125px;
+}

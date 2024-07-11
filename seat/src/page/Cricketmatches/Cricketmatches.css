@@ -1,0 +1,23 @@
+.matches{
+  color: black;
+  margin: 100px 20px 20px;
+}
+.swayam{
+  color:black;
+  display: flex;
+    flex-wrap: wrap;
+
+  
+  
+
+}
+.sumit{
+  background-color:#f7f7f7;
+  min-width: 345px;
+  min-height: 350px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+  
+}

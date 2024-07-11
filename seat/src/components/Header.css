@@ -1,0 +1,85 @@
+/* Header.css */
+
+.header {
+    background-color: #e2e8f0; /* bg-slate-200 */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* shadow-md */
+    width: 100%; /* Ensure header spans full width */
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Position at the top of the viewport */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; /* max-w-6xl */
+    margin: 0 auto; /* Center horizontally */
+    padding: 30px; /* p-3 */
+  }
+  
+  
+
+
+ 
+.header-title {
+  font-weight: bold; /* font-bold */
+  font-size: 1rem; /* text-sm */
+}
+
+.header-title-sm {
+  font-size: 1.25rem; /* sm:text-xl */
+}
+
+.header-title span:nth-child(1) {
+  color: #64748b; /* text-slate-500 */
+}
+
+.header-title span:nth-child(2) {
+  color: #334155; /* text-slate-700 */
+}
+
+.header-form {
+  background-color: #f1f5f9; /* bg-slate-100 */
+  padding: 0.5rem 1rem; /* Adjust padding */
+  border-radius: 0.5rem; /* rounded-lg */
+  display: flex;
+  align-items: center;
+}
+
+.header-input {
+  background-color: transparent; /* bg-transparent */
+  outline: none; /* focus:outline-none */
+  width: 6rem; /* w-24 */
+  border: none; /* Remove border */
+}
+
+.header-input-sm {
+  width: 16rem; /* sm:w-64 */
+}
+
+.header-icon {
+  color: #475569; /* text-slate-600 */
+  margin-left: 0.5rem; /* Add space between input and icon */
+}
+
+.header-nav {
+  display: flex;
+  gap: 1rem; /* gap-4 */
+}
+
+.header-nav-item {
+  display: none; /* hidden */
+  color: #334155; /* text-slate-700 */
+}
+
+.header-nav-item-sm {
+  display: inline; /* sm:inline */
+}
+
+.header-nav-item:hover {
+  text-decoration: underline; /* hover:underline */
+}
+
+  
+  
